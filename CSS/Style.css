@@ -1,0 +1,60 @@
+#Nome 
+ /*
+ Nome da id e usada como identificador no HTML
+ */
+
+ /*
+ Para usar ID's usa-se a tecla "#", para Class é "."
+ Só que ID's se usa uma unica vez, o class em varias vezes, ou seja, em mais de um elemento HTML.
+ PQ? pq o ID's pode ser usado como referencia em Links para
+ direcionar a um ponto da pagina, exemplo: curso de Python na Udemy
+ Quando eu clicar nesse botão ele me leva direto pra la, só que na mesma pagina
+ */
+  /*
+  Cores
+  podem ser usadas com nomes "color: blueviolet;"
+  podem ser usadas com exadecimal "color: #8A2BE2"
+  podem ser usadas por RGB "color:rgb (138,43,226)
+  e pode ser usada por RGBA color:rgba (138,43,226,1);
+  Esse ultimo define opacidade"
+  */
+
+  /*
+  O comando background-color: cor; é usado como um marca texto
+  O comando background-image: url( endereço da imagem );, coloca uma foto no fundo do texto selecionado
+  Esse comando tmb funciona se for usado no Body, assim será atribuido a imagem no fundo da pagina toda
+  Caso a imagem esteja se repetindo no fundo do texto ou da pagina, use o comando: background-repeat:no-repeat;
+  Para repetir em apenas uma direção, use: repeat-x ou repeat-y
+  Para mudar o tamanho da imagem, use: background-size: cover; para cubrir toda a pagina, mas isso estica dmais a foto
+  Para manter fixo a imagem, e deixar o texto passando por cima, use: background-attachment: fixed;
+  Para manter a foto rolando junto com o texto o comando é: background-attachment: scroll
+  Em fim, existe uma ordem de como organizar esses comandos, todos separados ou todos em uma mesma linha, mas todos
+  precisam seguir uma ordem de organização
+  */
+{
+    color: blueviolet;
+}
+
+#Whatsapp
+{
+    color: forestgreen;
+}
+
+.Cargo
+{
+    color: goldenrod
+}
+
+body
+{
+    background-image: url(../Assets/Backgrounds/G.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#Cursos
+{
+    background-image: url(../Assets/Backgrounds/H.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

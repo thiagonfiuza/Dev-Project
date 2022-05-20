@@ -1,0 +1,121 @@
+    /*
+    Tipos de format
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    */
+
+@font-face {
+    font-family: 'Bleeding-Freaks-Demo';
+    src: url(../Fonts/Bleeding-Freaks-Demo.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CELTG';
+    src: url(../Fonts/CELTG___.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Economica-Bold';
+    src: url(../Fonts/Economica-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Economica-BoldItalic';
+    src: url(../Fonts/Economica-BoldItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Economica-Italic';
+    src: url(../Fonts/Economica-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Economica-Regular';
+    src: url(../Fonts/Economica-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KnifeFightBallet-Italic';
+    src: url(../Fonts/KnifeFightBallet-Italic.otf) format('opentype');
+    src: url(../Fonts/KnifeFightBallet-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KnifeFightBallet-Regular';
+    src: url(../Fonts/KnifeFightBallet-Regular.otf) format('opentype');
+    src: url(../Fonts/KnifeFightBallet-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplaySC-Black';
+    src: url(../Fonts/PlayfairDisplaySC-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplaySC-BlackItalic';
+    src: url(../Fonts/PlayfairDisplaySC-BlackItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplaySC-Bold';
+    src: url(../Fonts/PlayfairDisplaySC-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplaySC-BoldItalic';
+    src: url(../Fonts/PlayfairDisplaySC-BoldItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplaySC-Italic';
+    src: url(../Fonts/PlayfairDisplaySC-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplaySC-Regular';
+    src: url(../Fonts/PlayfairDisplaySC-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Natural';
+    src: url(../Fonts/Natural.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Athena';
+    src: url(../Fonts/Athena.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
