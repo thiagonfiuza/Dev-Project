@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="./Assets/CSS/Style.css">
+</head>
+<body>
+
+    <div class="container"> <!--O conteudo estara separado em duas partes, para a esquerda ficara a imagem, para a ideira o cobnteudo do formulario-->
+        <div class="form-image"> <!--Div que contem a Imagem-->
+            <img src="./Assets/IMG/undraw_shopping_re_hdd9.svg">
+        </div>
+        <div class="form"> <!--Div que contem o formulario-->
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+            
+                <div class="input-group"> <!--Setor de incerção de informações digitadas-->
+                    <div class="input-box">
+                        <label for="Firstname">Primeiro Nome</label>
+                        <input id="Firstname" type="text" name="Firstname" placeholder="Digite seu Primeiro Nome" required> <!--REQUIRED define que é OBRIGATORIO preencher esse box-->
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Lastname">Sobrenome</label>
+                        <input id="Lastname" type="text" name="Lastname" placeholder="Digite seu Sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Email">Email</label>
+                        <input id="Email" type="email" name="Email" placeholder="Digite seu Email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Number">Celular</label>
+                        <input id="Number" type="tel" name="Number" placeholder="(XX) X XXXX-XXXX" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Password">Senha</label>
+                        <input id="Password" type="password" name="Password" placeholder="Digite sua Senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword">Confirme sua Senha</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Confirme sua Senha" required>
+                    </div>
+                </div>
+                <div class="gender-inputs">  <!--Setor de incerção de informações selecionadas-->
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="Female" name="gender"> 
+                            <label for="Female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="Male" name="gender">
+                            <label for="Male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="Others" name="gender">
+                            <label for="Others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="None" name="gender">
+                            <label for="None">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-buton">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+        </div>
+
+
+</body>
+</html>
