@@ -4,6 +4,13 @@
     text-align: center;
   }
 
+.dados
+{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .item-dados
 {
     margin: 5;
@@ -11,11 +18,12 @@
     border: solid black;
     border-right: 50%;
     border-radius: 10px;
+    list-style: none;
 }
 
-.dados:hover
+.item-dados:hover
 {
-    box-shadow: 5 5 10px 0 black;
+    box-shadow: 5px 5px 10px black inset;
     transition: 0.3s all;
 }
 
@@ -43,18 +51,18 @@ body
 
 a
 {
-text-decoration: none;
-color: black
+    text-decoration: none;
+    color: black
 }
 
 .botao
 {
-   border-color: #9ACD32;
-   color: #fff;
-   box-shadow: 0 0 40px 40px #9ACD32 inset, 0 0 0 0 #9ACD32;
-   -webkit-transition: all 150ms ease-in-out;
-   transition: all 250ms ease-in-out;
-   border-radius: 30px;
+    border-color: #9ACD32;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #9ACD32 inset, 0 0 0 0 #9ACD32;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    border-radius: 30px;
 }
 
 .botao:hover 
@@ -70,4 +78,188 @@ color: black
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0 0 10px 1px inset;
+}
+
+#proposição:hover
+{
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s all;
+}
+
+#Botoes
+{
+    text-align: center;
+}
+
+.grade-de-cursos
+{
+    width: 500px;
+    flex-flow: column nowrap;
+}
+
+.Telecentro
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.Telecentro:hover
+{
+    box-shadow: 3px 3px 5px black;
+}
+#img-Telecentro
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6495ED;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#img-Telecentro:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+.All-Net
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.All-Net:hover
+{
+    box-shadow: 3px 3px 5px black;
+}
+#img-All-Net
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#img-All-Net:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+.Telecurso-TEC
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.Telecurso-TEC:hover
+{
+    box-shadow: 3px 3px 5px black;
+}
+#img-TeleCurso-TEC
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6495ED;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#img-TeleCurso-TEC:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+
+.CPA
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.CPA:hover
+{
+    box-shadow: 3px 3px 5px black;
+}
+#img-CPA
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#img-CPA:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+
+.Udemy
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.Udemy:hover
+{
+    box-shadow: 3px 3px 5px black;
+}
+#img-Udemy
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #A52A2A;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#img-Udemy:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+
+.ProgramadorBr
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.ProgramadorBr:hover
+{
+    box-shadow: 3px 3px 5px black;
+}
+#img-ProgramadorBr
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00BFFF;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#img-ProgramadorBr:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+
+
+#Escolaridade
+{
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
 }
