@@ -27,26 +27,35 @@
     transition: 0.3s all;
 }
 
-.Cargo
-{
-    color: goldenrod
-}
-
-body
+.Exp-Profissional
 {
     
-    background-image: url(../Assets/Backgrounds/I.jpg);
+    background-image: url(../Assets/Backgrounds/n.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
-    
-    
-    
 }
+
+.Index-Body
+{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/145/864/non_2x/gradient-abstract-white-polygon-background-vector.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.Dados-Pessoais
+{
+    background-image: url(../Assets/Backgrounds/O.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+
+
 #Cursos
 {
-    background-image: url(../Assets/Backgrounds/H.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../Assets/Backgrounds/K.jpg);
+    background-size: 500px;
+    background-repeat: repeat;
 }
 
 a
@@ -262,4 +271,88 @@ a
 {
     box-shadow: 3px 3px 5px black;
     border-radius: 10px;
+}
+
+
+
+.Cargos
+{
+    width: 500px;
+}
+
+.EGFiuza
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.EGFiuza:hover
+{
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.Sudema
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.Sudema:hover
+{
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.A-Casa-do-Micro
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.A-Casa-do-Micro:hover
+{
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.Help-Byte
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.Help-Byte:hover
+{
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.MicroPRO
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.MicroPRO:hover
+{
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.Data-Byte
+{
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px inset;
+}
+.Data-Byte:hover
+{
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.4);
 }
