@@ -1,0 +1,21 @@
+@import url(./Fonts.css);
+
+.Titulo {
+    font-family: 'Percolator-expert';
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.Subtitulo {
+    margin-top: 0;
+    font-family: 'Percolator-expert';
+    font-size: 30px;
+    text-align: center;
+}
+
+fieldset
+{
+    border: 0;
+}
+
