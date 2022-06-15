@@ -18,7 +18,7 @@
 
 .Campo
 {
-    margin: 1em;
+    margin: 10px;
 }
 
 .Campo label
@@ -60,7 +60,7 @@ fieldset
 
 .Atributos
 {
-    border: solid;
+    
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +71,7 @@ fieldset
 
 .Atributos .Fisicos
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -80,7 +80,7 @@ fieldset
 
 .Atributos .Sociais
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -89,7 +89,7 @@ fieldset
 
 .Atributos .Mentais
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -98,7 +98,7 @@ fieldset
 
 .Habilidades
 {
-    border: solid;
+    
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +109,7 @@ fieldset
 
 .Habilidades .Talentos
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -118,7 +118,7 @@ fieldset
 
 .Habilidades .Pericias
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -127,7 +127,7 @@ fieldset
 
 .Habilidades .Conhecimento
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -136,7 +136,7 @@ fieldset
 
 .Vantagens
 {
-    border: solid;
+    
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +147,7 @@ fieldset
 
 .Vantagens .Disciplinas
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -157,7 +157,7 @@ fieldset
 
 .Vantagens .Virtudes
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -166,7 +166,7 @@ fieldset
 
 .Humanidade
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
@@ -174,9 +174,32 @@ fieldset
 }
 .Força-de-vontade
 {
-    border: solid;
+    
     display: flex;
     flex-wrap: wrap;
     width: 35%;
     flex-direction: column;
+}
+
+.Pontos-de-sangue
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    flex-direction: column;
+}
+
+.Campo input[name="EXP"]
+{
+    width: 235px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+}
+
+hr{
+    height:5px;
+    border:0;
+    background: linear-gradient(to right, transparent,darkred,black, transparent);
 }
